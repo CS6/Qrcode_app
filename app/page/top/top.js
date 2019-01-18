@@ -78,7 +78,7 @@ export default class top extends Component {
       <TouchableOpacity onPress={() => { this.props.navigation.navigate('Details') }}>
         <View style={styles.searchBox}>
           <Image source={require('../../img/search.png')} style={styles.searchIcon} />
-          <Text style={styles.searchContent}>搜尋欄位</Text>
+          <Text style={styles.searchContent}>搜索商品, 共10161款好物</Text>
         </View>
       </TouchableOpacity>
     )
